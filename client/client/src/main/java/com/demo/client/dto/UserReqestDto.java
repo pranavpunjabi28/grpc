@@ -17,5 +17,4 @@ public class UserReqestDto {
     @NotBlank(message = "User Id should not be blank")
     private int user_id;
 
-
 }

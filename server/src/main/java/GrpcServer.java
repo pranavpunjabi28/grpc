@@ -6,6 +6,8 @@ import java.io.IOException;
 
 public class GrpcServer {
 
+//    Logger log= LoggerFactory.getLogger(GrpcServer.class);
+
     public static void main(String[] args){
         Server server = ServerBuilder
                 .forPort(8083)

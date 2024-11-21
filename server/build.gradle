@@ -6,6 +6,7 @@ group = 'com.demo'
 version = '1.0-SNAPSHOT'
 
 repositories {
+    mavenLocal()
     mavenCentral()
 }
 
@@ -15,6 +16,8 @@ dependencies {
     implementation 'io.grpc:grpc-all:1.68.0'
     implementation 'com.google.protobuf:protobuf-java:4.28.3'
     implementation(files('build/libs/grpc-0.0.1-SNAPSHOT-plain.jar'))
+//    implementation 'com.demo:grpc:0.0.1-SNAPSHOT'
+    implementation 'com.pranav:quizapp:0.0.1-SNAPSHOT'
 }
 
 test {
